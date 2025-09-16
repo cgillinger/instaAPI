@@ -1,0 +1,39 @@
+# --- Node / Vite ---
+node_modules/
+dist/
+.vite/
+coverage/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Miljöfiler & lokala overrides ---
+.env
+.env.*
+*.local
+.eslintcache
+
+# --- Editor/IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS-specifikt (Windows/WSL) ---
+Thumbs.db
+.DS_Store
+$RECYCLE.BIN/
+*.lnk
+Zone.Identifier
+*:Zone.Identifier
+*Zone.Identifier
+
+# --- Datafiler du inte vill pusha ---
+*.csv
+
+# --- Bygg/deploy-artifakter (lägg till om de dyker upp) ---
+.vercel/
+.netlify/
