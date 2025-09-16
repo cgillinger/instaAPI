@@ -4,20 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Statistik</title>
-
-    <!-- Viktigt på GitHub Pages:
-         Använd %BASE_URL% så Vite prefixar med base (=/instaAPI/) vid build -->
-    <link rel="icon" href="%BASE_URL%Icon.png" />
-
-    <meta
-      name="description"
-      content="Analysera och visualisera statistik från Instagram-inlägg"
-    />
+    <link rel="icon" type="image/png" href="%BASE_URL%Icon.png" />
   </head>
   <body>
     <div id="root"></div>
-
-    <!-- Låt Vite hantera entry: den här vägen omskrivs korrekt med base -->
+    <!-- Viktigt: låt Vite bundla detta, använd src/index.jsx som entry -->
     <script type="module" src="/src/index.jsx"></script>
   </body>
 </html>
